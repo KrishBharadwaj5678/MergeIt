@@ -26,6 +26,8 @@ if btn:
 
         out=concatenate_videoclips(files)
         out.write_videofile("merge.mp4")
+    
+    st.video("merge.mp4")
 
     with open("merge.mp4","rb") as output:
-        st.download_button("Download",output.read(),"merge.mp4")
+        st.download_button("Download",output.read(),"mergeit.mp4")
