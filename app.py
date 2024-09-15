@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="Merge It - Merge Videos Online",
     page_icon="icon.png",
     menu_items={
-        "About":"MergeIt makes it a breeze to combine multiple video clips into one seamless video. Upload and merge your videos online, then download your polished masterpiece with just a click!"
+        "About":"MergeIt makes it a breeze to combine multiple video into one seamless video. Upload and merge your videos online, then download your polished masterpiece with just a click!"
     }   
 )
 
